@@ -285,11 +285,12 @@ article:nth-of-type(3) .skills-img {
 		position: absolute;
 		overflow: hidden;
 		top: 0;
-		left: 0
+		left: 0;
 	}
 	.view img {
 		display: block;
-		position: relative
+		position: relative;
+		width: 100%;
 	}
 	.view h4 {
 		text-transform: uppercase;
@@ -299,14 +300,14 @@ article:nth-of-type(3) .skills-img {
 		font-size: 1.8rem;
 		padding: 10px;
 		background: rgba(0, 0, 0, 0.8);
-		margin: 20px 0 0 0
+		margin: 20px 0 0 0;
 	}
 	.view p {
 		position: relative;
 		font-size: 1.5rem;
 		color: #fff;
 		padding: 10px 30px 0;
-		text-align: center
+		text-align: center;
 	}
 	.view a.info,
 	.view p.info {
@@ -316,12 +317,11 @@ article:nth-of-type(3) .skills-img {
 		background: #000;
 		color: #fff;
 		text-transform: uppercase;
-		box-shadow: 0 0 1px #000
+		box-shadow: 0 0 1px #000;
 	}
 	.view a.info:hover {
-		box-shadow: 0 0 5px #000
+		box-shadow: 0 0 5px #000;
 	}
-
 	.view-fifth img {
 		transition: all 0.3s ease-in-out;
 	}
