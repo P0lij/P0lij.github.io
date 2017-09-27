@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(window).scroll(function(){$(this).scrollTop()>400?($("nav").addClass("sticky"),$("#logo").addClass("shrink")):$("nav").removeClass("sticky")})});
