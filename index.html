@@ -1,187 +1,242 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-		<title>Matthieu Sublet</title>
-	</head>
-	<body>
-		<!-- navbar header -->
-		<div class="nav-header">
-			<div class="nav-brand">
-				<img src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/bradlogo2.png">
-			</div>
-			<i class="fa fa-bars fa-3x"></i>
-			<div class="header-links">
-				<ul>
-					<li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-					<li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-					<li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-				</ul>
+<head>
+	<!--=============== basic  ===============-->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="robots" content="index, follow"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!--=============== meta  ===============-->
+	<title>Matthieu Sublet | intégrateur, developpeur front-end et back-end, Paris</title>
+	<meta name="description" content="Je suis développeur front-end et back-end en région parisienne." />
+
+	<!--============= fonts & web icons  =============-->
+	<link href="https://fonts.googleapis.com/css?family=Baloo|Raleway:400,500,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!--=============== favicons  ===============-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+	<!--=============== css  ===============-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="home">
+		<nav>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="img/logoms-round-orange.png" alt="logo" id="logo" class="logo">
+					</a>
+				</li>
+				<li>
+					<a href="#home">Accueil</a>
+				</li>
+				<li>
+					<a href="#about">à propos</a>
+				</li>
+				<li>
+					<a href="#skills">mes compétences</a>
+				</li>
+				<li>
+					<a href="#projects">mes projets</a>
+				</li>
+				<li>
+					<a href="#contact">contact</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="wrapper">
+			<img src="img/working.png" alt="working" class="header-bkg wow bounceInLeft" data-wow-duration=".5s">
+			<div class="wrapper-title">
+				<div id="header-title" class="container wow bounceInDown" data-wow-duration=".7s" data-wow-delay=".2s">
+					<h1>Matthieu Sublet</h1>
+					<h2>&lt; Intégrateur &amp; développeur /&gt;</h2>
+				</div>
+				<div class="header-btn wow bounceInUp" data-wow-duration=".7s" data-wow-delay=".4s">
+					<a href="#contact" class="btn">Travaillons ensemble !</a>
+					<a href="download/CV.pdf" target="_blank" class="btn">Télécharger mon CV</a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<!-- end navbar header -->
-	<!-- sidebar slider -->
-	<div class="nav-screen">
-		<i class="fa fa-times fa-3x"></i>
-		<div class="nav-container">
-			<div class="nav-links">
-				<ul id='myMenu'>
-					<li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-					<li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-					<li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-				</ul>
+		<div class="icon-scroll wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".6s"></div>
+	</header>
+	<main>
+		<!--=============== ABOUT  ===============-->
+		<section class="section about" id="about">
+			<article class="about-article container">
+				<h3>à propos</h3>
+				<img src="img/photo-id.jpg" alt="ma photo" id="photo">
+				<h4>Avant le web...</h4>
+				<p>J'ai travaillé pendant 10 ans dans le domaine de l'édition de livres illustrés en tant que chef de projet. J'étais en charge de coordonner des projets éditoriaux de A à Z en collaboration avec des graphistes, des maquettistes, des auteurs et en lien direct avec les clients. J'étais également impliqué dans la réalisation de ces projets pour lesquels j'effectuais les recherches iconographiques, la correction ortho-typographique et parfois la mise en page.  </p>
+				<h4>Formation et savoir-faire</h4>
+				<p>J'ai décidé de me tourner vers le web après avoir suivi plusieurs projets d'applications web dans le cadre de développement de produits multi-supports. Ces expériences m'ont beaucoup intéressé et étant passionné depuis toujours par les nouvelles technologies, j'ai eu envie de découvrir le monde de la programmation. J'ai profité d'une année sabbatique pour apprendre seul à coder avant de valider ces acquis au cours d'une formation professionnelle au sein de la 3W Academy. Cela me permet aujourd'hui de maîtriser parfaitement les 5 langages de base pour la création d'application web : HTML, CSS, JavaScript, PHP et MySQL. Je continue à m'autoformer et à faire une veille technologique.</p>
+				<h4>Ce que je vous propose...</h4>
+				<p>Je vous propose de mettre à votre service mon sérieux et ma réactivité pour être un contributeur clé au succès de vos projets de développement web. Mes compétences en gestion de projet, en développement et en graphisme me permettront d'apporter de la valeur à tous les stades de vos projets web.</p>
+			</article>
+		</section>
+		<!--=============== SKILLS  ===============-->
+		<section class="section skills" id="skills">
+			<h3 class="container skew-correction-l">Mes compétences</h3>
+			<div class="container skew-correction-l flex">
+				<article class="skills-web">
+					<h4>Front-end</h4>
+					<ul>
+						<li>Intégration HTML/CSS à partir de fichiers .psd garantie "pixel perfect" ; </li>
+						<li>Responsive Design, compatible multi-navigateur, respect des normes W3C ;</li>
+						<li>Attentif à l'accessibilité et à la sécurité ;</li>
+						<li>Maîtrise du framework Boostrap 4 ;</li>
+						<li>Utilisation des fonctions CSS avancées : Flexbox, CSS Grid Layout, transformations, animations, transitions ;</li>
+						<li>Utilisation du pré-processeur SASS ;</li>
+						<li>Gestion évènementielle avec JavaScript/jQuery et requêtes asynchrones avec Ajax ;</li>
+						<li>Toolkit : NPM, Gulp, Grunt, Bower, Yeoman ;</li>
+						<li>Versioning Git, Github ;</li>
+						<li>Veille technologique pour rester à la pointe des dernières technologies et recommendations.</li>
+					</ul>
+					<img src="img/front.png" alt="front-end" class="skills-img">
+				</article>
+				<article class="skills-web">
+					<h4>Back-end</h4>
+					<ul>
+						<li>Développement d'applications web en PHP ;</li>
+						<li>Utilisation du framework Silex et du moteur de templating Twig ;</li>
+						<li>Création de sites avec les CMS Wordpress et Drupal ;</li>
+						<li>Création et gestion de bases de données MySQL ;</li>
+						<li>SVG, Canvas.</li>
+					</ul>
+					<img src="img/back.png" alt="back-end" class="skills-img">
+				</article>
+				<article class="skills-bonus">
+					<h4>Les petits <i class="fa fa-plus-circle" aria-hidden="true"></i></h4>
+					<img src="img/bonus.png" alt="Les trucs en +" class="skills-img">
+					<p>En plus de mes compétences web, mon expérience professionnelle dans le domaine de l'édition pourra être un atout majeur à toutes les phases de développement d'un projet web : </p>
+					<ul>
+						<li>Grande expérience de travail en mode collaboratif au sein d'une équipe ;</li>
+						<li>Maîtrise de la suite Adobe ;</li>
+						<li>Rédaction de contenu, réécriture, correction ortho-typographique ;</li>
+						<li>Gestion administrative et budgétaire ;</li>
+						<li>Recherche iconographique ;</li>
+						<li>Prise de vue photographique et retouche d'images ;</li>
+						<li>Connaissance des règles de mise en page et sensibilité graphique ;</li>
+						<li>Anglais professionnel.</li>
+					</ul>
+				</article>
 			</div>
-		</div>
-	</div>
-	<!-- end navbar slider -->
-	
-	<!-- begin fullpage -->
-	<div id="fullpage">
-		<!-- begin section -->
-		<div class="section aboutme" data-anchor="aboutme">
-			<div class="opaque-bg animated fadeInDown">
-				<h1 style="color:white">BRAD<span style="color:#FF6363">/</span>ENGELHARDT</h1>
-				<p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+		</section>
+		<!--=============== PROJECTS  ===============-->
+		<section class="section projects" id="projects">
+			<h3 class="container">Mes projets</h3>
+			<div class="container projects-content">
+				<div class="view view-fifth">
+					<img src="img/projets/vegan.png" alt="site restaurant">
+					<div class="mask">
+						<h4>Restaurant, e-commerce</h4>
+						<p>Refonte à partir d'un framework PHP existant, modèle MVC, base de données MySQL, espace administrateur et utilisateur, réservation en ligne, paiement Stripe.</p>
+						<p class="info">En cours</p>
+					</div>
+				</div>
+				<div class="view  view-fifth">
+					<img src="img/projets/photo.png" alt="site photo">
+					<div class="mask">
+						<h4>Portfolio d'un photographe amateur</h4>
+						<p>Intégration HTML/CSS à partir d'un fichier .psd,<br>Bootstrap, SASS.</p>
+						<p class="info">En cours</p>
+					</div>
+				</div>
+				<div class="view  view-fifth">
+					<img src="img/projets/nogent.png" alt="site agence de communication">
+					<div class="mask">
+						<h4>Nogent - Communication</h4>
+						<p>Drupal, adaptation template, blog.</p>
+						<p class="info">En cours</p>
+					</div>
+				</div>
+				<div class="view view-fifth">
+					<img src="img/projets/site.jpg" alt="votre site">
+					<div class="mask">
+						<h4>Peut-être votre site ?</h4>
+						<p>N'hésitez pas à me contacter<br>si vous voulez travailler avec moi.</p>
+						<a href="#contact" class="info">Contacter-moi</a>
+					</div>
+				</div>
 			</div>
-			<i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
-		</div>
-		<!-- end section -->
-		<!-- begin section -->
-		<div class="section" data-anchor="skills">
-			<div class="content">
-				<h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME</h1>
-				<p class="wow fadeInDown" data-wow-delay="0.2s">Hi, I'm Brad Engelhardt! I'm a Silicon Valley based Web Designer & Front-end Developer focused on creating clean, responsive web designs!</p>
-				<div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
-					<div class="skillbar clearfix " data-percent="90%">
-						<div class="skillbar-title" style="background: #DD1E2F;"><span>HTML5</span></div>
-						<div class="skillbar-bar" style="background: #DD1E2F;"></div>
-						<div class="skill-bar-percent">90%</div>
-						</div> <!-- End Skill Bar -->
-						<div class="skillbar clearfix " data-percent="80%">
-							<div class="skillbar-title" style="background: #EBB035;"><span>CSS3</span></div>
-							<div class="skillbar-bar" style="background: #EBB035;"></div>
-							<div class="skill-bar-percent">80%</div>
-							</div> <!-- End Skill Bar -->
-							<div class="skillbar clearfix " data-percent="75%">
-								<div class="skillbar-title" style="background: #218559;"><span>Photoshop</span></div>
-								<div class="skillbar-bar" style="background: #218559;"></div>
-								<div class="skill-bar-percent">75%</div>
-								</div> <!-- End Skill Bar -->
-								<div class="skillbar clearfix " data-percent="45%">
-									<div class="skillbar-title" style="background: #6840D4;"><span>Rails</span></div>
-									<div class="skillbar-bar" style="background: #6840D4;"></div>
-									<div class="skill-bar-percent">45%</div>
-									</div> <!-- End Skill Bar -->
-									<div class="skillbar clearfix " data-percent="30%">
-										<div class="skillbar-title" style="background: #06A2CB;"><span>jQuery</span></div>
-										<div class="skillbar-bar" style="background: #06A2CB;"></div>
-										<div class="skill-bar-percent">30%</div>
-										</div> <!-- End Skill Bar -->
-										<div class="skillbar clearfix " data-percent="20%">
-											<div class="skillbar-title" style="background: #AB4DD2;"><span>PHP</span></div>
-											<div class="skillbar-bar" style="background: #AB4DD2;"></div>
-											<div class="skill-bar-percent">20%</div>
-											</div> <!-- End Skill Bar -->
-										</div>
-									</div>
+		</section>
+		<!--=============== WORK  ===============-->
+		<section class="section work" id="work">
+			<div class="container skew-correction-r">
+				<h3>Je suis disponible pour travailler<br>en <span>agence</span> ou en <span>freelance</span></h3>
+				<div class="work-btn">
+					<a href="#contact" class="btn">Travaillons ensemble !</a>
+					<a href="download/CV.pdf" target="_blank" class="btn">Télécharger mon CV</a>
+				</div>
+			</div>
+		</section>
+		<!--=============== CONTACT  ===============-->
+		<section class="section contact" id="contact">
+			<div class="container">
+				<h3>Contact</h3>
+				<div class="contact-wrapper">
+					<ul class="contact-content">
+						<li>N'hésitez pas à prendre contact avec moi grâce au formulaire ou directement aux coordonnées ci-dessous :</li>
+						<li><h4>Matthieu Sublet</h4></li>
+						<li><i class="fa fa-home" aria-hidden="true"></i>94130 Nogent-sur-Marne</li>
+						<li><i class="fa fa-phone" aria-hidden="true"></i>06-70-89-68-87</li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:msublet@gmail.com">msublet@gmail.com</a></li>
+						<li class="icon-wrapper">
+							<a href="https://www.linkedin.com/in/matthieu-sublet-29293a8b/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<a href="https://twitter.com/msublet82?lang=fr" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+							<a href="https://github.com/matthieu-sublet/matthieu-sublet.github.io" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+					<form action="https://formspree.io/msublet@gmail.com" method="POST" class="contact-form">
+						<fieldset class="contact-wrapper">
+							<div class="information-wrapper">
+								<div class="input-wrapper">
+									<label for="firstname">Prénom</label>
+									<input type="text" id="firstname" name="firstname" required>
 								</div>
-								<!-- end section -->
-								<!-- begin section -->
-								<div class="section" data-anchor="projects">
-									<div class="content-slide">
-										<div class="slide">
-											<h1 class="wow fadeInDown" data-wow-delay="0.2s">XFAIRE</h1>
-											<p class="wow fadeInDown" data-wow-delay="0.2s">Digital streaming service</p>
-											<img class="wow fadeInUp" data-wow-delay="0.2s" data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/xfaire.jpg">
-										</div>
-										<div class="slide">
-											<h1>MACHETE ENERGY</h1>
-											<p>Energy drink website</p>
-											<img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/machete.jpg">
-										</div>
-										<div class="slide">
-											<h1>PORTFOLIO</h1>
-											<p>Mockup of a personal portfolio I was working on for a friend.</p>
-											<img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/cascioportfolio.jpg">
-										</div>
-										<div class="slide">
-											<h1>THATONEBLOG</h1>
-											<p>Minimalist blogging platform.</p>
-											<img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/blog.jpg">
-										</div>
-										<div class="slide">
-											<h1>PIXBORED</h1>
-											<p>Website for sharing images and gifs.</p>
-											<img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/pixbored.jpg">
-										</div>
-										<div class="slide">
-											<h1>PERSONAL WEBSITE</h1>
-											<p>Responsive vertical/horizontal header website theme.</p>
-											<img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/personalsite.jpg">
-										</div>
-									</div>
+								<div class="input-wrapper">
+									<label for="lastname">Nom</label>
+									<input type="text" id="lastname" name="lastname" required>
 								</div>
-								<!-- end section -->
-								<!-- begin section -->
-								<div class="section" data-anchor="contact">
-									<div class="content wow fadeInDown" data-wow-delay="0.2s">
-										<h1>CONTACT ME</h1>
-										<p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
-										<br>
-										<div class="contact-form">
-											<div id="form-messages"></div>
-											<form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
-												<div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s" >
-													<input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
-													<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-													<div class="help-block with-errors"></div>
-												</div>
-												<div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s" >
-													<input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
-													<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-													<div class="help-block with-errors"></div>
-												</div>
-												<div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
-													<textarea data-minlength="10" class="form-control" id ="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
-													<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-													<div class="help-block with-errors"></div>
-												</div>
-												<div class="hidden">
-													<input type="text" class="form-control" id="human" name="human" placeholder="">
-												</div>
-												<div class="wow fadeInUp" data-wow-delay="1s">
-													<button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
-												</div>
-											</form>
-											<br>
-										</div>
-									</div>
-								</div>
-								<!-- end section -->
-								<!-- begin section -->
-								<div class="section fp-auto-height">
-									<div class="footer">
-										<p>CONNECT WITH ME</p>
-										<div class="social-links">
-											<span><a href="https://www.linkedin.com/in/bradleyengelhardt" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
-											<span><a target="_blank" href="https://twitter.com/bradengelhardt" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
-											<span><a href="https://github.com/SquishyAndroid" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
-											<span><a href="https://codepen.io/SquishyAndroid/pens/public/"><i class="fa fa-codepen fa-2x"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<!-- end section -->
 							</div>
-							<!-- end fullpage -->
-							<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-							<script src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/wow.min.js"></script>
-							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-							<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
-						</body>
-					</html>
+							<div class="information-wrapper">
+								<div class="input-wrapper">
+									<label for="email">Email</label>
+									<input type="email" id="email" name="_replyto" required>
+								</div>
+								<div class="input-wrapper">
+									<label for="phone">Téléphone</label>
+									<input type="text" id="phone" name="phone">
+								</div>
+							</div>
+							<div class="input-wrapper input-full">
+								<label for="object">Objet</label>
+								<input type="text" id="object" name="object" required>
+							</div>
+							<div class="input-wrapper input-full">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" cols="30" rows="10" required></textarea>
+							</div>
+							<button type="submit" class="contact-btn">Envoyer</button>
+							<input type="hidden" name="_next" value="https://matthieu-sublet.github.io/">
+							<input type="hidden" name="_subject" value="Message portfolio !">
+							<input type="hidden" name="_language" value="fr">
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</section>
+		<a href="#" id="btn_up"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+	</main>
+	<footer>
+		<small>©2017 - Matthieu Sublet | Tous droits réservés</small>
+	</footer>
+	<script src="js/wow.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
